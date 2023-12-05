@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <form action="">
+            <p>Calculator</p>
+            <input  id='result' type="text">
+            <br>
+            <input class="button number" type="button" onclick="displayData(7)" value="7">
+            <input class="button number" type="button" onclick="displayData(8)" value="8">
+            <input class="button number" type="button" onclick="displayData(9)" value="9">
+            <input class="button operator" type="button" onclick="displayData('/')" value="/">
+            <br>
+            <input class="button number" type="button" onclick="displayData(4)" value="4">
+            <input class="button number" type="button" onclick="displayData(5)" value="5">
+            <input class="button number" type="button" onclick="displayData(6)" value="6">
+            <input class="button operator" type="button" onclick="displayData('*')" value="*">
+            <br>
+            <input class="button number" type="button" onclick="displayData(1)" value="1">
+            <input class="button number" type="button" onclick="displayData(2)" value="2">
+            <input class="button number" type="button" onclick="displayData(3)" value="3">
+            <input class="button operator" type="button" onclick="displayData('+')" value="+">
+            <br>
+            <input class="button clear" type="button" onclick="Allclear()" value="C">
+            <input class="button number" type="button" onclick="displayData(0)" value="0">
+            <input class="button result" type="button" onclick="out()" value="=">
+            <input class="button operator" type="button" onclick="displayData('-')" value="-">
+            <br>
+            <input class="button backspace" type="button" onclick="backspace()" value="&#9004">
+
+        </form>
+    </div>
+</body>
+<script src="./calc.js"></script>
+</html>
